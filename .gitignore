@@ -1,1 +1,4 @@
 en.openfoodfacts.org.products.csv
+.cursor/
+skills.md
+__pycache__/
