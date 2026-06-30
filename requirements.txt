@@ -1,0 +1,4 @@
+pandas
+rapidfuzz
+openai
+python-dotenv

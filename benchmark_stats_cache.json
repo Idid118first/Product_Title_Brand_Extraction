@@ -1,0 +1,58 @@
+{
+  "known_list": {
+    "name": "KnownListExtractor",
+    "rows": 892,
+    "brands_returned": 636,
+    "accuracy_overall": 0.9607623318385651,
+    "accuracy_by_segment": {
+      "1": 0.9936974789915967,
+      "2": 0.8533333333333334,
+      "3": 0.9624060150375939
+    },
+    "segment_counts": {
+      "1": 476,
+      "3": 266,
+      "2": 150
+    },
+    "precision": 0.9449685534591195,
+    "recall": 0.9600638977635783,
+    "abstention_rate": 0.9624060150375939,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "api_requests": null,
+    "cost_usd": null,
+    "tokens_per_1k_titles": null,
+    "cost_per_1k_titles_usd": null,
+    "model": null,
+    "notes": ""
+  },
+  "llm": {
+    "name": "LLMExtractor",
+    "rows": 892,
+    "brands_returned": 614,
+    "accuracy_overall": 0.889,
+    "accuracy_by_segment": {
+      "1": 0.943,
+      "2": 0.647,
+      "3": 0.929
+    },
+    "segment_counts": {
+      "1": 476,
+      "2": 150,
+      "3": 266
+    },
+    "precision": 0.889,
+    "recall": 0.872,
+    "abstention_rate": 0.929,
+    "prompt_tokens": 3298306,
+    "completion_tokens": 1968,
+    "total_tokens": 3300274,
+    "api_requests": 892,
+    "cost_usd": 0.4959,
+    "tokens_per_1k_titles": 3699859,
+    "cost_per_1k_titles_usd": 0.556,
+    "model": "gpt-4o-mini",
+    "notes": ""
+  }
+}

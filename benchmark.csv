@@ -1,7 +1,7 @@
 ,product_name,brands,brands_tags,product_name_norm,brands_norm,match_category,brands_matched
-1017265,"Real Dried Aloe Vera + Ginger Snacks, Ginger",ALO,xx:alo,"real dried aloe vera + ginger snacks, ginger",alo,2,alo
+1017265,"Real Dried Aloe Vera + Ginger Snacks, Ginger",ALO,xx:alo,"real dried aloe vera + ginger snacks, ginger",alo,3,
 3007397,"Wawa, Chicken Steak Burrito Bowl",Wawa,wawa,"wawa, chicken steak burrito bowl",wawa,1,wawa
-29773,"Long Grove Confectionery Co., St. Pat's Mini Pretzels",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co., st. pat's mini pretzels",long grove confectionery co.,2,long grove confectionery co.
+29773,"Long Grove Confectionery Co., St. Pat's Mini Pretzels",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co., st. pat's mini pretzels",long grove confectionery co.,1,long grove confectionery co.
 1255714,"PF Chang's, Tempura Calamari & Vegetables",PF Chang's,pf-chang-s,"pf chang's, tempura calamari & vegetables",pf chang's,1,pf chang's
 3151484,Terra Delyssa Ekstra jomfruolivenolie øko,Terra Delyssa,xx:terra-delyssa,terra delyssa ekstra jomfruolivenolie øko,terra delyssa,1,terra delyssa
 1941025,Vin,Vin,xx:vin,vin,vin,1,vin
@@ -31,7 +31,7 @@
 1686882,Vin rouge,vin  Rouge,xx:vin-rouge,vin rouge,vin rouge,1,vin rouge
 2388832,Herzberger Bio Dinkelvollkorn Toastbrot 4024884045304,Herzberger,xx:herzberger,herzberger bio dinkelvollkorn toastbrot 4024884045304,herzberger,1,herzberger
 3494526,Banago 600G Beutel,Banago,xx:banago,banago 600g beutel,banago,1,banago
-4366366,Too Yumm! K-Bomb Ramen,Too Yumm!,xx:too-yumm,too yumm! k-bomb ramen,too yumm!,2,too yumm!
+4366366,Too Yumm! K-Bomb Ramen,Too Yumm!,xx:too-yumm,too yumm! k-bomb ramen,too yumm!,1,too yumm!
 3091641,Yummy Protein Bar Chocolate Brownie,Yummy,xx:yummy,yummy protein bar chocolate brownie,yummy,1,yummy
 4354034,WeiKFiELD,Weikfield,xx:weikfield,weikfield,weikfield,1,weikfield
 1238499,"Joe's Crab Shack, Joes Classic Steampot For 2",Joe's Crab Shack,joe-s-crab-shack,"joe's crab shack, joes classic steampot for 2",joe's crab shack,1,joe's crab shack
@@ -72,7 +72,7 @@
 894109,"Whole foods market, dry roasted unsalted pumpkin seed","Whole Foods Market,  Harry's Farmers Market  Ltd.","whole-foods-market,harry-s-farmers-market-ltd","whole foods market, dry roasted unsalted pumpkin seed","whole foods market, harry's farmers market ltd.",1,whole foods market
 3592484,"Pack Fórmula Infantil Ninho Fases 1 Lata 1,6kg 2 Unidades Grátis 20 De Desconto Na Segunda Lata",NINHO,xx:ninho,"pack formula infantil ninho fases 1 lata 1,6kg 2 unidades gratis 20 de desconto na segunda lata",ninho,1,ninho
 1309333,Asda Long Life whole Milk,Asda,xx:asda,asda long life whole milk,asda,1,asda
-3281426,Dura Red Thyme 400 GR,Durra,xx:durra,dura red thyme 400 gr,durra,2,durra
+3281426,Dura Red Thyme 400 GR,Durra,xx:durra,dura red thyme 400 gr,durra,3,
 1998687,Picot Mes 1ères Céréales Multicéréales,Picot,xx:picot,picot mes 1eres cereales multicereales,picot,1,picot
 3670701,esselunga latte bio parzialmente scremato,esselunga,xx:esselunga,esselunga latte bio parzialmente scremato,esselunga,1,esselunga
 3597264,WAFER CHOCOLATE 140G BAUDUCCO,Bauducco,xx:bauducco,wafer chocolate 140g bauducco,bauducco,1,bauducco
@@ -102,7 +102,7 @@
 649191,Heb Raw Chicken Tenders,HEB,xx:h-e-b,heb raw chicken tenders,heb,1,heb
 684159,Tyson Bonless Chicken breast,Tyson,xx:tyson,tyson bonless chicken breast,tyson,1,tyson
 3522721,"Tassimo Saimaza Cortado Cremoso, 16 T-discs (8 Servings)",Tassimo Saimaza,xx:tassimo-saimaza,"tassimo saimaza cortado cremoso, 16 t-discs (8 servings)",tassimo saimaza,1,tassimo saimaza
-2700527,дошuрак,Доширак,xx:доширак,дошuрак,доширак,2,доширак
+2700527,дошuрак,Доширак,xx:доширак,дошuрак,доширак,3,
 3719298,Bonelle squisite,"Bonelle, Fida","bonelle,fida",bonelle squisite,"bonelle, fida",1,bonelle
 2084092,"Sonic, Ched R Bites, Small",Sonic,sonic,"sonic, ched r bites, small",sonic,1,sonic
 316567,Planters Honey Nut Trail Mix,Planters,xx:planters,planters honey nut trail mix,planters,1,planters
@@ -125,7 +125,7 @@
 4522309,"Tim Hortons, Mocha Iced Coffee",Tim Hortons,tim-hortons,"tim hortons, mocha iced coffee",tim hortons,1,tim hortons
 4443555,Ruyee Steamed Bun With mushroom And Vegetable,Ruyee,xx:ruyee,ruyee steamed bun with mushroom and vegetable,ruyee,1,ruyee
 2237211,Charrette Herit. vanil. 40d,"Charrette, Charrette Héritage","xx:charrette,xx:charrette-heritage",charrette herit. vanil. 40d,"charrette, charrette heritage",1,charrette
-1094847,NuBar,Nublar,xx:nublar,nubar,nublar,2,nublar
+1094847,NuBar,Nublar,xx:nublar,nubar,nublar,3,
 3558399,Maxichis,maxichis,xx:maxichis,maxichis,maxichis,1,maxichis
 1253291,"Marco's Pizza, Mountain Dew, Diet, 8 Fl Oz",Marco's Pizza,marco-s-pizza,"marco's pizza, mountain dew, diet, 8 fl oz",marco's pizza,1,marco's pizza
 752698,"Protein2o, protein enhanced water, wild cherry splash",Protein2o,protein2o,"protein2o, protein enhanced water, wild cherry splash",protein2o,1,protein2o
@@ -133,7 +133,7 @@
 3548584,Hatsu Lila,HATSU,xx:hatsu,hatsu lila,hatsu,1,hatsu
 3086910,"Fanta Citron Frappé,",Fanta,xx:fanta,"fanta citron frappe,",fanta,1,fanta
 3589042,rapidito,Rapidito,xx:rapidito,rapidito,rapidito,1,rapidito
-2576829,Quark nach russischer Art,Quarki,xx:quarki,quark nach russischer art,quarki,2,quarki
+2576829,Quark nach russischer Art,Quarki,xx:quarki,quark nach russischer art,quarki,3,
 3056875,Guylian Creations in Chocolate,Guylian,guylian,guylian creations in chocolate,guylian,1,guylian
 3947901,Leche Copirineo Desnatada,copirineo,xx:copirineo,leche copirineo desnatada,copirineo,1,copirineo
 73994,Nature Valley Packed Sustained Energy Bar,Nature Valley,nature-valley,nature valley packed sustained energy bar,nature valley,1,nature valley
@@ -149,7 +149,7 @@
 943109,"Meijer, free & light, artificially flavored drink mix, iced tea peach",Meijer,meijer,"meijer, free & light, artificially flavored drink mix, iced tea peach",meijer,1,meijer
 3487507,Starbucks Americano,Starbucks,xx:starbucks,starbucks americano,starbucks,1,starbucks
 999955,Jocko Pre Workout,Jocko,xx:jocko,jocko pre workout,jocko,1,jocko
-2974392,biolanta soft twins Kakao banilia,BIOAANTA,xx:bioaanta,biolanta soft twins kakao banilia,bioaanta,2,bioaanta
+2974392,biolanta soft twins Kakao banilia,BIOAANTA,xx:bioaanta,biolanta soft twins kakao banilia,bioaanta,3,
 1638535,"Knorr Potage Poule Vermicelle Déshydraté déshydraté 690g jusqu'à 12,5L",Knorr,xx:knorr,"knorr potage poule vermicelle deshydrate deshydrate 690g jusqu'a 12,5l",knorr,1,knorr
 441578,"Clover valley, coarse kosher salt","Clover Valley,  Gel Spice Company Inc","clover-valley,gel-spice-company-inc","clover valley, coarse kosher salt","clover valley, gel spice company inc",1,clover valley
 2177877,Mézerac Yaourts à la vanille les 4 pots de 125 g,Mezerac,xx:mezerac,mezerac yaourts a la vanille les 4 pots de 125 g,mezerac,1,mezerac
@@ -185,7 +185,7 @@
 60708,Rhubarb & Custard west country dairy ice cream,Country Dairy,xx:country-dairy,rhubarb & custard west country dairy ice cream,country dairy,1,country dairy
 4440291,Vegie Delights Tender Crumbed Schnitzel,Vegie Delights,vegie-delights,vegie delights tender crumbed schnitzel,vegie delights,1,vegie delights
 2682970,"PF Chang's, Mongolian Beef Bowl",PF Chang's,pf-chang-s,"pf chang's, mongolian beef bowl",pf chang's,1,pf chang's
-2478126,Tandoori Bio-Gewürzzubereitung,"Bio,Aldi","xx:aldi,xx:bio",tandoori bio-gewurzzubereitung,"bio,aldi",1,bio
+2478126,Tandoori Bio-Gewürzzubereitung,"Bio,Aldi","xx:aldi,xx:bio",tandoori bio-gewurzzubereitung,"bio,aldi",3,
 4324249,Meiji 4.3 deluxe milk,Meiji,xx:meiji,meiji 4.3 deluxe milk,meiji,1,meiji
 2450532,LIDL chef select Rote Paprikaschoten,"chef select, lidl chef select","xx:chef-select,xx:lidl-chef-select",lidl chef select rote paprikaschoten,"chef select, lidl chef select",1,lidl chef select
 3616257,Mel Lambertucci Café Bisnaga,Lambertucci,xx:lambertucci,mel lambertucci cafe bisnaga,lambertucci,1,lambertucci
@@ -198,7 +198,7 @@
 2805585,Sprite  getränk,Sprite,xx:sprite,sprite getrank,sprite,1,sprite
 3815879,Zuegg zero zuccheri aggiunti ciliegie nere,Zuegg,xx:zuegg,zuegg zero zuccheri aggiunti ciliegie nere,zuegg,1,zuegg
 3632963,Loacker cacao&milk,Loacker,xx:loacker,loacker cacao&milk,loacker,1,loacker
-4461157,Peanut Butter Chocolate,Chocolatier,chocolatier,peanut butter chocolate,chocolatier,2,chocolatier
+4461157,Peanut Butter Chocolate,Chocolatier,chocolatier,peanut butter chocolate,chocolatier,3,
 969906,Marigot Bay St Lucia,Marigot Bay,marigot-bay,marigot bay st lucia,marigot bay,1,marigot bay
 3544033,"Einstein Bros, Hot Mocha, 16 Fl Oz",Einstein Bros,einstein-bros,"einstein bros, hot mocha, 16 fl oz",einstein bros,1,einstein bros
 3088836,Coca-Cola Zero Energy,Coca-Cola,xx:coca-cola,coca-cola zero energy,coca-cola,1,coca-cola
@@ -207,7 +207,7 @@
 371512,Sour Patch Kids Peach,Sour Patch Kids,xx:sour-patch-kids,sour patch kids peach,sour patch kids,1,sour patch kids
 4271070,Eru crème de brie,Eru,xx:eru,eru creme de brie,eru,1,eru
 3432213,Margarina sin sal Delicia Eugenia,Eugenia,xx:eugenia,margarina sin sal delicia eugenia,eugenia,1,eugenia
-2680315,GODIV　 チーズケーキ　エ　ショコラ,GODIVA,godiva,godiv チースケーキ エ ショコラ,godiva,2,godiva
+2680315,GODIV　 チーズケーキ　エ　ショコラ,GODIVA,godiva,godiv チースケーキ エ ショコラ,godiva,3,
 3553484,Atún Rallado en Aceite al Natural,Atún Rallado,atun-rallado,atun rallado en aceite al natural,atun rallado,1,atun rallado
 3322276,Ruispalat Original,"Vaasan, Ruispalat","xx:ruispalat,xx:vaasan",ruispalat original,"vaasan, ruispalat",1,ruispalat
 2828200,Schwartz Ground Allspice 37G Jar,"Schwartz, Mccormick","schwartz,mccormick",schwartz ground allspice 37g jar,"schwartz, mccormick",1,schwartz
@@ -233,7 +233,7 @@
 2554912,"Papa John's, Pepperoni Specialty On Pan Crust, 1 Slice",Papa John's,papa-john-s,"papa john's, pepperoni specialty on pan crust, 1 slice",papa john's,1,papa john's
 3375124,"White Castle, Crave Cooler Coke, Large",White Castle,white-castle,"white castle, crave cooler coke, large",white castle,1,white castle
 2886201,Aptamil organic first infant milk,Aptamil,xx:aptamil,aptamil organic first infant milk,aptamil,1,aptamil
-4331434,ดัชมิลล์ 4อิน1 ไมโครแอคทีฟ โยเกิร์ตพร้อมดื่มยูเอชที สูตรน้ำตาลน้อยกว่า กลิ่นแอปเปิ้ลอาโอโมริและลิ้นจี่,ดัชมิลล์,xx:ดัชมิลล์,ดัชมิลล์ 4อิน1 ไมโครแอคทีฟ โยเกิร์ตพรอมดืมยเอชที สตรนําตาลนอยกวา กลินแอปเปิลอาโอโมริและลินจี,ดัชมิลล์,2,ดัชมิลล์
+4331434,ดัชมิลล์ 4อิน1 ไมโครแอคทีฟ โยเกิร์ตพร้อมดื่มยูเอชที สูตรน้ำตาลน้อยกว่า กลิ่นแอปเปิ้ลอาโอโมริและลิ้นจี่,ดัชมิลล์,xx:ดัชมิลล์,ดัชมิลล์ 4อิน1 ไมโครแอคทีฟ โยเกิร์ตพรอมดืมยเอชที สตรนําตาลนอยกวา กลินแอปเปิลอาโอโมริและลินจี,ดัชมิลล์,1,ดัชมิลล์
 2815936,Duchy Organic Lemon All Butter Shortbread,"Duchy Organic, Waitrose Duchy Organic","xx:duchy-organic,xx:waitrose-duchy-organic",duchy organic lemon all butter shortbread,"duchy organic, waitrose duchy organic",1,duchy organic
 2286964,Žito Special toast,Žito,žito,zito special toast,zito,1,zito
 3594672,PRESIDENT LA CREME BRIE,Président,xx:president,president la creme brie,president,1,president
@@ -259,7 +259,7 @@
 21759,kimbo espresso italiano,Kimbo,xx:kimbo,kimbo espresso italiano,kimbo,1,kimbo
 286653,soda  tropical,tropical,xx:tropical,soda tropical,tropical,1,tropical
 1566251,Costa,Costa,xx:costa,costa,costa,1,costa
-2236122,Quinoa mais tomates haricot rouge,Quinola,xx:quinola,quinoa mais tomates haricot rouge,quinola,2,quinola
+2236122,Quinoa mais tomates haricot rouge,Quinola,xx:quinola,quinoa mais tomates haricot rouge,quinola,3,
 3919959,Barritas de cereales sunny grain sport,sunny grain,xx:sunny-grain,barritas de cereales sunny grain sport,sunny grain,1,sunny grain
 3209261,Santal piersici,Santal,santal,santal piersici,santal,1,santal
 2056409,Auchan penne rigate auchan 500 g,Auchan,xx:auchan,auchan penne rigate auchan 500 g,auchan,1,auchan
@@ -301,7 +301,7 @@
 2600882,Ahead Crazy Pistachio Aufstrich,Ahead,xx:ahead,ahead crazy pistachio aufstrich,ahead,1,ahead
 3691512,Lindt Lindor Mischung,"Lindor, Lindt, Lindt & Sprüngli","xx:lindor,xx:lindt,xx:lindt-sprungli",lindt lindor mischung,"lindor, lindt, lindt & sprungli",1,lindt
 4355460,Good Life urad washed gota,Good Life,xx:good-life,good life urad washed gota,good life,1,good life
-2582746,Mozart muesli,mymuesli,xx:mymuesli,mozart muesli,mymuesli,2,mymuesli
+2582746,Mozart muesli,mymuesli,xx:mymuesli,mozart muesli,mymuesli,3,
 3058454,"Provamel Bio fermentiertes Sojaprodukt, Apfel 6x400g",Provamel,xx:provamel,"provamel bio fermentiertes sojaprodukt, apfel 6x400g",provamel,1,provamel
 693089,Whole Foods Honey Dijon Chicken,Whole Foods,xx:whole-foods,whole foods honey dijon chicken,whole foods,1,whole foods
 186376,BBQ Sauced Pork Rib Patty on a Sub Bun,Pork Rib,xx:pork-rib,bbq sauced pork rib patty on a sub bun,pork rib,1,pork rib
@@ -319,11 +319,11 @@
 2812916,Maltesers Malteaster Milk Chocolate Bunnies X5 145G,Maltesers,xx:maltesers,maltesers malteaster milk chocolate bunnies x5 145g,maltesers,1,maltesers
 3608614,Iogurte Grego Frutas Vermelhas Vigor Frasco 220g,VIGOR,xx:vigor,iogurte grego frutas vermelhas vigor frasco 220g,vigor,1,vigor
 2644679,"KFC, Sierra Mist, 30 Fl Oz",KFC,kfc,"kfc, sierra mist, 30 fl oz",kfc,1,kfc
-3267339,AkwabaO',AkwabaO',xx:akwabao,akwabao',akwabao',2,akwabao'
+3267339,AkwabaO',AkwabaO',xx:akwabao,akwabao',akwabao',1,akwabao'
 1168841,"Fabi-saa, black quinoa grains",Fabi-Saa,fabi-saa,"fabi-saa, black quinoa grains",fabi-saa,1,fabi-saa
 3045743,SPA TOUCH Bruisend Watermelon Kiwi 6 x 50cl,Spa,xx:spa,spa touch bruisend watermelon kiwi 6 x 50cl,spa,1,spa
 1153454,JOCKO GO Real Energy Orange flavor,JOCKO,xx:jocko,jocko go real energy orange flavor,jocko,1,jocko
-3430737,Arcor Bon O Bon Chocolate,Archor,archor,arcor bon o bon chocolate,archor,2,archor
+3430737,Arcor Bon O Bon Chocolate,Archor,archor,arcor bon o bon chocolate,archor,3,
 423795,Oh Snap Dilly Bites,Oh Snap,oh-snap,oh snap dilly bites,oh snap,1,oh snap
 200836,HEB semisweet Chocolate baking chips,HEB,xx:h-e-b,heb semisweet chocolate baking chips,heb,1,heb
 3482952,Perrier slim,Perrier,xx:perrier,perrier slim,perrier,1,perrier
@@ -366,7 +366,7 @@
 2906428,asda pipper mash,Asda,xx:asda,asda pipper mash,asda,1,asda
 4255763,Longkou Glasnudler,Longkou,xx:longkou,longkou glasnudler,longkou,1,longkou
 2664103,Hänchenschenkel mit Rückenstück XXL,XXL,xx:xxl,hanchenschenkel mit ruckenstuck xxl,xxl,1,xxl
-2757572,"Олія «Фаворит» 82,5% ДСТУ 4399,",Фаворит,xx:фаворит,"олія «фаворит» 82,5% дсту 4399,",фаворит,1,фаворит
+2757572,"Олія «Фаворит» 82,5% ДСТУ 4399,",Фаворит,xx:фаворит,"олія «фаворит» 82,5% дсту 4399,",фаворит,3,
 7983,Pago cerise raisin,Pago,xx:pago,pago cerise raisin,pago,1,pago
 452800,"Bachman, thin'n right, crispy, candy, great tasting baked pretzels",Bachman,bachman,"bachman, thin'n right, crispy, candy, great tasting baked pretzels",bachman,1,bachman
 523737,Brantley Creek Original Barbecue,Brantley Creek,xx:brantley-creek,brantley creek original barbecue,brantley creek,1,brantley creek
@@ -407,7 +407,7 @@
 2844404,Berocca ENERGY RELEASE,Berocca,xx:berocca,berocca energy release,berocca,1,berocca
 1735449,Bte 4 / 4 Salsifis Coupes Chaville Grand Jury,Grand Jury,xx:grand-jury,bte 4 / 4 salsifis coupes chaville grand jury,grand jury,1,grand jury
 1798932,"La maison guiot, Sirop de caramel , la bouteille de 70",La maison guiot,xx:la-maison-guiot,"la maison guiot, sirop de caramel , la bouteille de 70",la maison guiot,1,la maison guiot
-207843,Rolan couscous,Roland,xx:roland,rolan couscous,roland,2,roland
+207843,Rolan couscous,Roland,xx:roland,rolan couscous,roland,3,
 1002135,Sarelle,Sarelle,xx:sarelle,sarelle,sarelle,1,sarelle
 1957268,DENTIFRICE ARGILE DENTICLAY CITRON EAU THERMALE (75ML) CIEL D'AZUR,CIEL D'AZUR,xx:ciel-d-azur,dentifrice argile denticlay citron eau thermale (75ml) ciel d'azur,ciel d'azur,1,ciel d'azur
 3272568,Azeite De Oliva Extra Virgem Tunisiano Rahma Vidro 500ml,Rahma,xx:rahma,azeite de oliva extra virgem tunisiano rahma vidro 500ml,rahma,1,rahma
@@ -433,7 +433,7 @@
 2677239,Yoplait Cajeta con Nuez,Yoplait,xx:yoplait,yoplait cajeta con nuez,yoplait,1,yoplait
 2313949,HARIBO  COLOR-RADO,Haribo,xx:haribo,haribo color-rado,haribo,1,haribo
 1398674,Oat Bran - Kazidomi,Kazidomi,xx:kazidomi,oat bran - kazidomi,kazidomi,1,kazidomi
-1186335,+1 Whey Protein,+1,xx:1,+1 whey protein,+1,2,+1
+1186335,+1 Whey Protein,+1,xx:1,+1 whey protein,+1,1,+1
 2880668,innocent smoothie kiwi pomme & ananas 750ml,Innocent,xx:innocent,innocent smoothie kiwi pomme & ananas 750ml,innocent,1,innocent
 3666547,TRE MARIE - Ancora uno - Gianduia nero,Tre Marie,xx:tre-marie,tre marie - ancora uno - gianduia nero,tre marie,1,tre marie
 3493146,Maggi Curry Wurst Soße,"Maggi, Nestlé Maggi","xx:maggi,xx:nestle-maggi",maggi curry wurst soße,"maggi, nestle maggi",1,maggi
@@ -451,7 +451,7 @@
 2300194,"Whataburger, Jalapeno Cheddar Biscuit & Gravy",Whataburger,whataburger,"whataburger, jalapeno cheddar biscuit & gravy",whataburger,1,whataburger
 2632054,EDEKA GUT&GÜNSTIG Salzstangen,"EDEKA GUT&GÜNSTIG, Edeka Gut&Günstig","xx:edeka-gut-gunstig,xx:edeka-gut-gunstig",edeka gut&gunstig salzstangen,"edeka gut&gunstig, edeka gut&gunstig",1,edeka gut&gunstig
 3661391,Riso della Sardegna per Insalate,Riso della Sardegna,xx:riso-della-sardegna,riso della sardegna per insalate,riso della sardegna,1,riso della sardegna
-3582029,Mantequilla (Soprole),Soprole,xx:soprole,mantequilla (soprole),soprole,1,soprole
+3582029,Mantequilla (Soprole),Soprole,xx:soprole,mantequilla (soprole),soprole,3,
 2748692,Highlands Gold Corned Beef 150g,Highlands,xx:highlands,highlands gold corned beef 150g,highlands,1,highlands
 342677,Special K Original,Special K,xx:special-k,special k original,special k,1,special k
 3023447,Delhaize Tomatoes,Delhaize,xx:delhaize,delhaize tomatoes,delhaize,1,delhaize
@@ -460,7 +460,7 @@
 3748283,Benessere Mozzarella Bio,"Benessere, Caseificio Villa","xx:benessere,xx:caseificio-villa",benessere mozzarella bio,"benessere, caseificio villa",1,benessere
 2968205,Choco nussa to go,Choco Nussa,xx:choco-nussa,choco nussa to go,choco nussa,1,choco nussa
 1833111,Maroilles sorbais fauquet,"Fauquet, Savencia","xx:fauquet,xx:savencia",maroilles sorbais fauquet,"fauquet, savencia",1,fauquet
-448551,"Palmer's, cordial cherry drizzled corn","Palmer,  Palmer Candy Company","palmer,palmer-candy-company","palmer's, cordial cherry drizzled corn","palmer, palmer candy company",1,palmer
+448551,"Palmer's, cordial cherry drizzled corn","Palmer,  Palmer Candy Company","palmer,palmer-candy-company","palmer's, cordial cherry drizzled corn","palmer, palmer candy company",3,
 1198722,Best Whey Bar Brownie Chocolate 32g - Atlhetica,Atlhetica,xx:atlhetica,best whey bar brownie chocolate 32g - atlhetica,atlhetica,1,atlhetica
 3014882,Carrefour Classic' Safran,Carrefour,xx:carrefour,carrefour classic' safran,carrefour,1,carrefour
 2051282,Boutique 192 uc vendome oeufs 4 refs,Vendome,xx:vendome,boutique 192 uc vendome oeufs 4 refs,vendome,1,vendome
@@ -499,3 +499,395 @@
 4297790,Original PG Tips 160 tea bags,PG Tips,xx:pg-tips,original pg tips 160 tea bags,pg tips,1,pg tips
 3593624,Molho Pesto Vermelho Hemmer Vidro 200g,HEMMER,xx:hemmer,molho pesto vermelho hemmer vidro 200g,hemmer,1,hemmer
 6911,McCormick Bac’n Pieces,Mccormick,mccormick,mccormick bac'n pieces,mccormick,1,mccormick
+1785976,Petites quenelles de volaille,Petitjean,xx:petitjean,petites quenelles de volaille,petitjean,3,
+18984,Olive oil,Berio,berio,olive oil,berio,3,
+3606911,Erva Mate Orgânica (Bio),Barão de Cotegipe,xx:barao-de-cotegipe,erva mate organica (bio),barao de cotegipe,3,
+2275238,Galleta de barquillo con crema de vainilla,Yuppie,xx:yuppie,galleta de barquillo con crema de vainilla,yuppie,3,
+2007090,Poires Demi-fruits,"Carrefour, En Cuisine","xx:carrefour,xx:en-cuisine",poires demi-fruits,"carrefour, en cuisine",3,
+687692,Stuffed Pork Tenderloin,Ready2Cook,xx:ready2cook,stuffed pork tenderloin,ready2cook,3,
+2631134,Kondensmilch,"Edeka, gut&günstig","xx:edeka,xx:gut-gunstig",kondensmilch,"edeka, gut&gunstig",3,
+2284224,Palacinke,Pekarna Pecjak,pekarna-pecjak,palacinke,pekarna pecjak,3,
+2886557,"Mixed Fruit Candies, Sweets",Weight watchers,xx:weight-watchers,"mixed fruit candies, sweets",weight watchers,3,
+2712534,Медовик,Самокат,xx:самокат,медовик,самокат,3,
+3472849,Mélange de légumes suisse,"Coop Prix garantie, Prix garantie","xx:coop-prix-garantie,xx:prix-garantie",melange de legumes suisse,"coop prix garantie, prix garantie",3,
+1125886,Empresurise vanille,Malo,xx:malo,empresurise vanille,malo,3,
+164050,Thai Style Sweet Chili Sauce,Food Lion,food-lion,thai style sweet chili sauce,food lion,3,
+568575,Chicken Italian Sausage With Spinach & Feta,Heinen’s,xx:heinen-s,chicken italian sausage with spinach & feta,heinen's,3,
+2973885,Simon Life Florida,Don Simón,xx:don-simon,simon life florida,don simon,3,
+2542709,Immun Komplex,Good Choice,xx:good-choice,immun komplex,good choice,3,
+4425081,White Bread - Thick Slice,Mammoth Bakery,xx:mammoth-bakery,white bread - thick slice,mammoth bakery,3,
+343023,Original cooking spray,ConAgra,xx:conagra,original cooking spray,conagra,3,
+2056008,Sirop d'agave bio,Auchan Bio,xx:auchan-bio,sirop d'agave bio,auchan bio,3,
+2620902,Backhefe,Rossmann,xx:rossmann,backhefe,rossmann,3,
+3739057,Malvasia dolce,Vinicola Decordi,xx:vinicola-decordi,malvasia dolce,vinicola decordi,3,
+3640274,Pagnottine con sesamo,Gardapan,xx:gardapan,pagnottine con sesamo,gardapan,3,
+4490907,Melting Moments,The Village Bakehouse,the-village-bakehouse,melting moments,the village bakehouse,3,
+2776417,柿の種 山椒味,亀田製菓,亀田製菓,柿の種 山椒味,亀田製菓,3,
+1549229,Kartuli-vorstisalat,Maxima,maxima,kartuli-vorstisalat,maxima,3,
+2356554,Sesamsaat geschält,Reformhaus,xx:reformhaus,sesamsaat geschalt,reformhaus,3,
+4410799,Bourbon Vanille Schoten,Billa Bio,xx:billa-bio,bourbon vanille schoten,billa bio,3,
+4140945,Arándanos deshidratados,Eliges,xx:eliges,arandanos deshidratados,eliges,3,
+3088695,Infusion fruitée bio,honest,xx:honest,infusion fruitee bio,honest,3,
+3290315,Saudia Mayo 430,السعودية,xx:السعودية,saudia mayo 430,السعودية,3,
+1319756,Zampon,AGROIKIA,xx:agroikia,zampon,agroikia,3,
+130484,2 Minute Masala Indian Noodles,Maggi,maggi,2 minute masala indian noodles,maggi,3,
+1177691,Fruity Pebbles,Post Foods  Llc,post-foods-llc,fruity pebbles,post foods llc,3,
+232528,"Classic Pasta, Egg Pastina",Weis,weis,"classic pasta, egg pastina",weis,3,
+1010589,Gluten free penne,Schar,schar,gluten free penne,schar,3,
+3540667,Pistache,Lili's Selection,xx:lili-s-selection,pistache,lili's selection,3,
+2036541,Veloute de carotte,Gustadea,xx:gustadea,veloute de carotte,gustadea,3,
+33983,Chews,Jolly rancher,xx:jolly-rancher,chews,jolly rancher,3,
+1679345,Summer Pinata Party,Haribo,xx:haribo,summer pinata party,haribo,3,
+1544797,Palmera 3% cacao,Eroski,xx:eroski,palmera 3% cacao,eroski,3,
+4411313,Baby Hafer Porridge,Billa Bio,xx:billa-bio,baby hafer porridge,billa bio,3,
+2160478,Thé vert jasmin,Ethiquable,xx:ethiquable,the vert jasmin,ethiquable,3,
+520108,Organic Split Pea Soup,Trader Joe's,xx:trader-joe-s,organic split pea soup,trader joe's,3,
+2670089,Gemüse Mais,REWE,xx:rewe,gemuse mais,rewe,3,
+3789868,Depurativa,Erbalis,xx:erbalis,depurativa,erbalis,3,
+4171200,MUSLI bar XXL,EMCO,xx:emco,musli bar xxl,emco,3,
+2829470,Riz au goût raffiné de poulet,Uncle Ben's,xx:uncle-ben-s,riz au gout raffine de poulet,uncle ben's,3,
+149620,Green Peas,Earthbound Farms,xx:earthbound-farms,green peas,earthbound farms,3,
+1382376,Hähnchen Geschnetzeltes,Friki,xx:friki,hahnchen geschnetzeltes,friki,3,
+322511,Double chocolat et Framboise,Irrésistibles,xx:irresistibles,double chocolat et framboise,irresistibles,3,
+2659953,Cashewkerne,Rewe Bio,xx:rewe-bio,cashewkerne,rewe bio,3,
+1218537,Dresdner Fleischsalat ohne Gurke,Dr. Doerr,xx:dr-doerr,dresdner fleischsalat ohne gurke,dr. doerr,3,
+2697729,Vuolu Kanafilee Mustapippuri,Atria,xx:atria,vuolu kanafilee mustapippuri,atria,3,
+1246459,Paprika rood,Jumbo,jumbo,paprika rood,jumbo,3,
+111186,Sour Jacks Watermelon Wedges,Extramile,xx:extramile,sour jacks watermelon wedges,extramile,3,
+4150154,Ensalada Variada,Alteza,xx:alteza,ensalada variada,alteza,3,
+2752600,Freeze-dried Strawberries,Red Crown Fruit,xx:red-crown-fruit,freeze-dried strawberries,red crown fruit,3,
+4339472,Greek Yogurt with Probiotics Passionfruit & Pineapple Flavour,THE CHEESE BARON,xx:the-cheese-baron,greek yogurt with probiotics passionfruit & pineapple flavour,the cheese baron,3,
+3795495,Uovo di cioccolato,Di Gennaro,xx:di-gennaro,uovo di cioccolato,di gennaro,3,
+1006977,"Organic Sour Pops - Cherry, Grape, Strawberry","Sunny yummy, YumEarth","xx:sunny-yummy,xx:yumearth","organic sour pops - cherry, grape, strawberry","sunny yummy, yumearth",3,
+2436187,Green tea with jasmine flavour,Lidl,xx:lidl,green tea with jasmine flavour,lidl,3,
+2080998,Mix Electric Atomic,Carambar,xx:carambar,mix electric atomic,carambar,3,
+4422825,Bio-Rote Rüben-Salat,"Spar Natur*pur, Spar Natur*pur / Spar","xx:spar-natur-pur,xx:spar-natur-pur-spar",bio-rote ruben-salat,"spar natur*pur, spar natur*pur / spar",3,
+3060806,Boulettes de legumes,Aoste,xx:aoste,boulettes de legumes,aoste,3,
+877952,Cordons bleus volaille,Bofrost,xx:bofrost,cordons bleus volaille,bofrost,3,
+373,Ingwer Wurzel,"Biotiva, Grappa","xx:biotiva,xx:grappa",ingwer wurzel,"biotiva, grappa",3,
+2531116,Ice cream,Aldi,aldi,ice cream,aldi,3,
+761146,Semillas de marañon sin sal,Members del tirón,xx:members-del-tiron,semillas de maranon sin sal,members del tiron,3,
+3052884,Saindoux,Detry,xx:detry,saindoux,detry,3,
+2983534,Τυρι Του Τοστ,Λογαδι,xx:λογαδι,τυρι του τοστ,λογαδι,3,
+4474999,"Tasty Cheese, Chicken Breast and Rice Crackers",Woolworths,xx:woolworths,"tasty cheese, chicken breast and rice crackers",woolworths,3,
+2520903,Real Dairy Cream UHT,"Cowbelle,Aldi","xx:aldi,xx:cowbelle",real dairy cream uht,"cowbelle,aldi",3,
+3620116,Mortadela de soja fatiada,Goshen,xx:goshen,mortadela de soja fatiada,goshen,3,
+1040138,Quattro Vegab,Magnum Nutraceuticals,xx:magnum-nutraceuticals,quattro vegab,magnum nutraceuticals,3,
+49347,Prepared Sesame Seed & Seaweed (Nori Goma Furikake),Jfc,jfc,prepared sesame seed & seaweed (nori goma furikake),jfc,3,
+1157596,All Purpose Tomato Sauce,Carlos,xx:carlos,all purpose tomato sauce,carlos,3,
+514622,Candy,Brookshire's,brookshire-s,candy,brookshire's,3,
+2955218,Lemon Lavender Cordial,Liber & Co.,xx:liber-co,lemon lavender cordial,liber & co.,3,
+3091744,Speedy,Moulin Dieschbour,xx:moulin-dieschbour,speedy,moulin dieschbour,3,
+202594,Poblano Chicken Lasagna with Cream Sauce,H-E-B,xx:h-e-b,poblano chicken lasagna with cream sauce,h-e-b,3,
+3741629,Tomaten Pasta Sauce Dosen - Dani,Grimaldi,xx:grimaldi,tomaten pasta sauce dosen - dani,grimaldi,3,
+168435,dried apricots,food club,xx:food-club,dried apricots,food club,3,
+4072225,Premium Whey chocolate,Arla,xx:arla,premium whey chocolate,arla,3,
+3969387,Haricot White Beans,Navarrico,xx:navarrico,haricot white beans,navarrico,3,
+3647982,Vellutata con ceci e cavolo nero- surgelata,Coop,xx:coop,vellutata con ceci e cavolo nero- surgelata,coop,3,
+3736457,Wafers al cocco,Crich,xx:crich,wafers al cocco,crich,3,
+1235485,Sushis Okinawa Leclerc Vitré,Monoprix,xx:monoprix,sushis okinawa leclerc vitre,monoprix,3,
+291340,Shredded 4 Cheese Mexican Blend,California Select Farms,xx:california-select-farms,shredded 4 cheese mexican blend,california select farms,3,
+627344,Petite Sirloin Steak,Good Gather,xx:good-gather,petite sirloin steak,good gather,3,
+1791851,Topcao,Leader Price,xx:leader-price,topcao,leader price,3,
+1574385,Exotic Party,Palais des Thés,xx:palais-des-thes,exotic party,palais des thes,3,
+2343612,Walnusskerne,"Biofarm, Kluth","xx:biofarm,xx:kluth",walnusskerne,"biofarm, kluth",3,
+880911,Original Italian Dressing,Cowrind Studios  Inc.,cowrind-studios-inc,original italian dressing,cowrind studios inc.,3,
+2607489,Cashewmus,Bio Company,xx:bio-company,cashewmus,bio company,3,
+4222403,Cashewnoten,Dirk / 1de Beste,xx:dirk-1de-beste,cashewnoten,dirk / 1de beste,3,
+1780035,Mix Pâtes salées ou sucrées,Supplex,xx:supplex,mix pates salees ou sucrees,supplex,3,
+3614490,Feijão Branco,Turquesa,xx:turquesa,feijao branco,turquesa,3,
+3772921,mousse alla pesca e maracuja,Land,xx:land,mousse alla pesca e maracuja,land,3,
+3906158,Cafeina anhidra natural,quality nutrition,xx:quality-nutrition,cafeina anhidra natural,quality nutrition,3,
+4240659,Tomatensap,De Nieuwe Band,de-nieuwe-band,tomatensap,de nieuwe band,3,
+960428,Yellow Potatoes,Earth and Time,xx:earth-and-time,yellow potatoes,earth and time,3,
+4276167,Wittle Rijst,Albert Heijn,xx:albert-heijn,wittle rijst,albert heijn,3,
+265059,Bran flakes cereal,Raley’s,raley-s,bran flakes cereal,raley's,3,
+2196436,Yaourt Bio Brassé à la chataigne,La Ferme du Crêt Joli,xx:la-ferme-du-cret-joli,yaourt bio brasse a la chataigne,la ferme du cret joli,3,
+903438,Gourmet Cookies,Lady Walton's,lady-walton-s,gourmet cookies,lady walton's,3,
+468805,Almendra con sabor vainilla,Member's Mark,member-s-mark,almendra con sabor vainilla,member's mark,3,
+3850703,black truffle velvet cream,Tartufi Jimmy,xx:tartufi-jimmy,black truffle velvet cream,tartufi jimmy,3,
+3165544,Bio Płatki Owsiane Górskie Extra,Młyny Stoisław,xx:młyny-stoisław,bio płatki owsiane gorskie extra,młyny stoisław,3,
+1745092,La Pizza Roma,"Fiorini,Sélection Intermarché","fiorini,selection-intermarche",la pizza roma,"fiorini,selection intermarche",3,
+76427,Super Collagen plus Vitamin C and Biotin,Neocell,xx:neocell,super collagen plus vitamin c and biotin,neocell,3,
+1906806,Elsas Café grains,Henri,xx:henri,elsas cafe grains,henri,3,
+2272968,Руска салата с шунка,Денито,xx:денито,руска салата с шунка,денито,3,
+1803570,Mes Burger Légumineuses aux Pois Chiches,La Vie Claire,xx:la-vie-claire,mes burger legumineuses aux pois chiches,la vie claire,3,
+3397908,Rågade Med Russin,Urshults,xx:urshults,ragade med russin,urshults,3,
+862520,Chewing gum,Spry,spry,chewing gum,spry,3,
+4149873,"Baby verduras, pollo y arroz",Alteza,xx:alteza,"baby verduras, pollo y arroz",alteza,3,
+1345435,Pollo,Penny,xx:penny,pollo,penny,3,
+2423049,Vollmilch-Schokolade,Steinbeck,xx:steinbeck,vollmilch-schokolade,steinbeck,3,
+1056887,Mexican Blend,Kraft Signature Natural Cheese,xx:kraft-signature-natural-cheese,mexican blend,kraft signature natural cheese,3,
+766616,100% grass-fed whey protein concentrate,Transparent labs,transparent-labs,100% grass-fed whey protein concentrate,transparent labs,3,
+1051901,Rebound Recovery,IronVegan,xx:ironvegan,rebound recovery,ironvegan,3,
+1043894,Organic Peppercorn Black,Spicely Organics,spicely-organics,organic peppercorn black,spicely organics,3,
+2724694,Võileivemääre,Farmi,xx:farmi,voileivemaare,farmi,3,
+4016193,Salsa boloñesa,Froiz,xx:froiz,salsa bolonesa,froiz,3,
+1696729,Moulin basilic,Ducros,xx:ducros,moulin basilic,ducros,3,
+3871860,Confettura extra di ciliegia,Leader Price,xx:leader-price,confettura extra di ciliegia,leader price,3,
+3162202,Bison Grass Wodka,"Żubrówka, żubrówka","xx:żubrowka,xx:żubrowka",bison grass wodka,"zubrowka, zubrowka",3,
+4287778,Aardappel Puree,Albert Heijn,xx:albert-heijn,aardappel puree,albert heijn,3,
+2295154,Dinkel Rauchkäse,Poljorad,xx:poljorad,dinkel rauchkase,poljorad,3,
+1485830,Funghi porcini freschi,Happy Harvest,xx:happy-harvest,funghi porcini freschi,happy harvest,3,
+3407301,Taste of Asia Sriracha Hot Chili Sauce,EXOTIC FOOD PUBLIC COMPANY LTD,xx:exotic-food-public-company-ltd,taste of asia sriracha hot chili sauce,exotic food public company ltd,3,
+3881294,Crunchy crock cracker,Eat pro,xx:eat-pro,crunchy crock cracker,eat pro,3,
+3010393,Organic Vegetable Bouillon,Dr Coy’s,xx:dr-coy-s,organic vegetable bouillon,dr coy's,3,
+3636928,amaretti morbidi cocco,Brezzo,xx:brezzo,amaretti morbidi cocco,brezzo,3,
+3931997,Lipper fresa,CLIPPER,xx:clipper,lipper fresa,clipper,3,
+2394769,Sächsischer Leberkäse,Naumburger,xx:naumburger,sachsischer leberkase,naumburger,3,
+1804038,Purée de pruneaux,La Vie Claire,xx:la-vie-claire,puree de pruneaux,la vie claire,3,
+500023,Creamy Almond Butter,Harvest Day,xx:harvest-day,creamy almond butter,harvest day,3,
+4260782,Thai Taste Green Curry Paste,Onoff Spices,xx:onoff-spices,thai taste green curry paste,onoff spices,3,
+4350984,Лепешка из муки бобовых «Папад» хрустящая со специями,Bikano,xx:bikano,лепешка из муки бобовых «папад» хрустящая со специями,bikano,3,
+118713,Bagel Chips,Paskesz,paskesz,bagel chips,paskesz,3,
+913425,Sweet Dark Cherries,The Fresh Market,the-fresh-market,sweet dark cherries,the fresh market,3,
+2798129,Sesame Dressing,Pietro Dressing,xx:pietro-dressing,sesame dressing,pietro dressing,3,
+200577,Seasoned Coating Crumbs,Jason,xx:jason,seasoned coating crumbs,jason,3,
+2885163,Cold Smoked Atlantic Salmon Slices,365 Whole Foods Market,xx:365-whole-foods-market,cold smoked atlantic salmon slices,365 whole foods market,3,
+69867,Organic sparkling italian soda,Natural Directions,natural-directions,organic sparkling italian soda,natural directions,3,
+3487049,Kit Kay Chunky Mini,Nestle,xx:nestle,kit kay chunky mini,nestle,3,
+1739205,Crousti Moelleuse Originale Bolognaise,Marie,xx:marie,crousti moelleuse originale bolognaise,marie,3,
+1291735,Crenvurști De Porc,Pikok,xx:pikok,crenvursti de porc,pikok,3,
+1639272,Sirop Sport - Fraise,BARDINET,xx:bardinet,sirop sport - fraise,bardinet,3,
+1975803,Melange evasion,Maitre Prunille,xx:maitre-prunille,melange evasion,maitre prunille,3,
+2712414,Green buckwheat with vegetables,Azbuka vkusa,azbuka-vkusa,green buckwheat with vegetables,azbuka vkusa,3,
+1586298,Hänchen Brustfilet,Penny,xx:penny,hanchen brustfilet,penny,3,
+2953856,Quarter Pounder Beef Burgers,The Butchery,xx:the-butchery,quarter pounder beef burgers,the butchery,3,
+398211,Chocolate Peppermint Pretzels,Harris Teeter,xx:harris-teeter,chocolate peppermint pretzels,harris teeter,3,
+3841342,Crunchy con castagne,Poggio del Farro,xx:poggio-del-farro,crunchy con castagne,poggio del farro,3,
+1136506,Almond chocolate chip protein bar,G2G Protein Bar,xx:g2g-protein-bar,almond chocolate chip protein bar,g2g protein bar,3,
+3554506,Sugar free chocolate with monk fruit 99.8% cacao,Juan Choconat,juan-choconat,sugar free chocolate with monk fruit 99.8% cacao,juan choconat,3,
+2715927,Sun Cake,Taiwan,xx:taiwan,sun cake,taiwan,3,
+3710369,Semi di zucca,Noberasco,xx:noberasco,semi di zucca,noberasco,3,
+2689779,Kasha,Nestlé,nestle,kasha,nestle,3,
+4141379,Aceite de coco,Eliges,xx:eliges,aceite de coco,eliges,3,
+337375,No salt added chicken broth,Western Family,xx:western-family,no salt added chicken broth,western family,3,
+2921035,Cocktail purée passion,Funkin Pro-Cocktails,xx:funkin-pro-cocktails,cocktail puree passion,funkin pro-cocktails,3,
+1105244,Organic Cooked Beets,G's Fresh Beets Incorporated,g-s-fresh-beets-incorporated,organic cooked beets,g's fresh beets incorporated,3,
+2506791,Kalkoenfilet - Filet de Dinde - Putenfilet,Délifin,xx:delifin,kalkoenfilet - filet de dinde - putenfilet,delifin,3,
+4348306,Nice time,Britannia,britannia,nice time,britannia,3,
+3913656,mermelada melocotón bio,Auchan,xx:auchan,mermelada melocoton bio,auchan,3,
+526640,Gluten Free Chicken Nuggets,Golden Platter Foods  Inc.,golden-platter-foods-inc,gluten free chicken nuggets,golden platter foods inc.,3,
+3228131,Basil pesto,Goldcrest,xx:goldcrest,basil pesto,goldcrest,3,
+3796776,Zucchero bianco semolato 1kg,Il Gigante,xx:il-gigante,zucchero bianco semolato 1kg,il gigante,3,
+3065719,Bier,Alfoncine,xx:alfoncine,bier,alfoncine,3,
+2718293,Pineapple Tart,Futian Jinzuan,futian-jinzuan,pineapple tart,futian jinzuan,3,
+2952068,Biryani,Gsn,xx:gsn,biryani,gsn,3,
+1371298,Hackfleisch Light,Migros Bio,xx:migros-bio,hackfleisch light,migros bio,3,
+3558974,Jamon De Pavita,San Fernando,xx:san-fernando,jamon de pavita,san fernando,3,
+3929205,Mini cables,Fini,xx:fini,mini cables,fini,3,
+3911992,Palmeras cacao,Horno hermanos Juan,xx:horno-hermanos-juan,palmeras cacao,horno hermanos juan,3,
+364587,Thin Stix Pretzels,Tom Sturgis,tom-sturgis,thin stix pretzels,tom sturgis,3,
+4085775,Preparado de carne picada de vacuno,"mercadona,Medina","xx:medina,xx:mercadona",preparado de carne picada de vacuno,"mercadona,medina",3,
+541672,Chocolate con leche,Nestlé,xx:nestle,chocolate con leche,nestle,3,
+3894094,Integrale spaghetti,Barilla,xx:barilla,integrale spaghetti,barilla,3,
+2517492,Salbei,Kania,xx:kania,salbei,kania,3,
+1730594,Marmelade de mandarine de Menton,Albert Ménès,xx:albert-menes,marmelade de mandarine de menton,albert menes,3,
+398876,Greek Yogurt Dessert Mix,Southern Gourmet,southern-gourmet,greek yogurt dessert mix,southern gourmet,3,
+4344668,Milk,Smoo,xx:smoo,milk,smoo,3,
+2861314,15 Free Range Eggs,Euro Shopper,xx:euro-shopper,15 free range eggs,euro shopper,3,
+1984880,Miel de france,Famille Vacher,xx:famille-vacher,miel de france,famille vacher,3,
+3809505,Confitures de cerises Partitalia,"Casa Montalbano, Montalbano","xx:casa-montalbano,xx:montalbano",confitures de cerises partitalia,"casa montalbano, montalbano",3,
+1141705,Cantina Style Taco Seasoning,Mateo’s,xx:mateo-s,cantina style taco seasoning,mateo's,3,
+2009774,La Pizza Jambon Fromage,Carrefour,xx:carrefour,la pizza jambon fromage,carrefour,3,
+922476,Tequila,Mexiko,xx:mexiko,tequila,mexiko,3,
+4261115,Puur choco pasta,jumbo,xx:jumbo,puur choco pasta,jumbo,3,
+2421470,hähnchensteaks,Barbeque,xx:barbeque,hahnchensteaks,barbeque,3,
+552109,Biscolata orange,solen,xx:solen,biscolata orange,solen,3,
+3106553,Jus de pêche,COMPAL,xx:compal,jus de peche,compal,3,
+1850279,Fraise - Confiture bio extra,Saveurs & Fruits,xx:saveurs-fruits,fraise - confiture bio extra,saveurs & fruits,3,
+69860,Organic Corn & Bean Salsa,Natural Directions,natural-directions,organic corn & bean salsa,natural directions,3,
+2432502,Mezquiriz,Navarra,xx:navarra,mezquiriz,navarra,3,
+450683,Houmous Lite,Osem,xx:osem,houmous lite,osem,3,
+1123719,Clothespin Cookies,Buttermaid Bakery,xx:buttermaid-bakery,clothespin cookies,buttermaid bakery,3,
+2613713,Popcorn (Cinnamon Apple),Krusty Krunch,xx:krusty-krunch,popcorn (cinnamon apple),krusty krunch,3,
+4406769,Classic Sandwich Ice Cream,BILLA,xx:billa,classic sandwich ice cream,billa,3,
+2690421,Активиа Биойогурт груша черника,Danone,danone,активиа биоиогурт груша черника,danone,3,
+231944,Honey,Weis Quality,weis-quality,honey,weis quality,3,
+239323,Blue Diamond Almond Breeze Unsweetened Vanilla,Blue dragon,xx:blue-dragon,blue diamond almond breeze unsweetened vanilla,blue dragon,3,
+628676,Souris d'agneau,"Intermarché, Jean Rozé","xx:intermarche,xx:jean-roze",souris d'agneau,"intermarche, jean roze",3,
+4475106,Yellowfin Tuna In Olive Oil,Woolworths,xx:woolworths,yellowfin tuna in olive oil,woolworths,3,
+3008299,Southern fried chicken fillets (gluten free),Rosie & Jims,xx:rosie-jims,southern fried chicken fillets (gluten free),rosie & jims,3,
+1701602,Céréales Amaranthe et Fruits,Cereal bio,xx:cereal-bio,cereales amaranthe et fruits,cereal bio,3,
+4221657,Kalfsvleescroqeutten,Van Dobben,xx:van-dobben,kalfsvleescroqeutten,van dobben,3,
+3405752,Blaubeermarmelade,Garant,xx:garant,blaubeermarmelade,garant,3,
+3071996,Déli Bouillon Légumes Dégraissé,Liebig,xx:liebig,deli bouillon legumes degraisse,liebig,3,
+4406094,Sportdrink ISO Fit,Admiral,xx:admiral,sportdrink iso fit,admiral,3,
+1189142,Dark Chocolate + Coffee Collabaration Bar,Askinosie Chocolate,askinosie-chocolate,dark chocolate + coffee collabaration bar,askinosie chocolate,3,
+2770944,Pizza pikant,"Wagener‘s Gewürze, Wagner‘s Gewürze","xx:wagener-s-gewurze,xx:wagner-s-gewurze",pizza pikant,"wagener's gewurze, wagner's gewurze",3,
+1097904,Horchata Flavored (caffeine free),Perk energy,xx:perk-energy,horchata flavored (caffeine free),perk energy,3,
+90263,Riced Veggies,Green Giant,green-giant,riced veggies,green giant,3,
+607541,Chicken Chorizo Sausage,Lou's Sausage,xx:lou-s-sausage,chicken chorizo sausage,lou's sausage,3,
+2623627,Cornflakes knusprig geröstet,TIP,xx:tip,cornflakes knusprig gerostet,tip,3,
+2726332,Kana Ja Kuumsuitsuforelli Urumaki,Selveri Köök,xx:selveri-kook,kana ja kuumsuitsuforelli urumaki,selveri kook,3,
+3049053,erbsen,freshcan,xx:freshcan,erbsen,freshcan,3,
+168479,Cooked Shrimp,Full Circle Market,xx:full-circle-market,cooked shrimp,full circle market,3,
+3384114,Protein Maxx Super Soft,Nutri-Maxx,nutri-maxx,protein maxx super soft,nutri-maxx,3,
+813106,Five cheese lasagna,Sprouts,sprouts,five cheese lasagna,sprouts,3,
+2010479,Foie gras de canard cru du Sud Ouest,Reflets de France,reflets-de-france,foie gras de canard cru du sud ouest,reflets de france,3,
+1056354,Mugwort,Hawaii Pharm,xx:hawaii-pharm,mugwort,hawaii pharm,3,
+3836882,Olio extravergine di oliva,Piccolo,xx:piccolo,olio extravergine di oliva,piccolo,3,
+3352632,Seaweed Cashews,KKV x Dakouquia,xx:kkv-x-dakouquia,seaweed cashews,kkv x dakouquia,3,
+2188838,Le kaddramel,DDduPWATOO,xx:dddupwatoo,le kaddramel,dddupwatoo,3,
+2642423,Chester,Landgut,xx:landgut,chester,landgut,3,
+224726,garbanzo,Publix,xx:publix,garbanzo,publix,3,
+4154388,Motak poppy-plum,Stanislav a Syn for Billa,xx:stanislav-a-syn-for-billa,motak poppy-plum,stanislav a syn for billa,3,
+1713357,Saint-Emilion Grand Cru 2014,Château Viramière,xx:chateau-viramiere,saint-emilion grand cru 2014,chateau viramiere,3,
+3048020,Coriandre & gingembre,bosto,xx:bosto,coriandre & gingembre,bosto,3,
+480502,Afghan naan,Afghan Bakery,xx:afghan-bakery,afghan naan,afghan bakery,3,
+1605740,"Filet de dinde façon tournedos, France, 2 pièces",U,xx:u,"filet de dinde facon tournedos, france, 2 pieces",u,3,
+624082,Grass-Fed Ground Beef,Desert Mountain,xx:desert-mountain,grass-fed ground beef,desert mountain,3,
+3428851,Cocoa Powder,Munné,xx:munne,cocoa powder,munne,3,
+2459242,Bio Aloe Vera Saft,DmBio,xx:dmbio,bio aloe vera saft,dmbio,3,
+4263421,Robuuste crackers haver,Jumbo,xx:jumbo,robuuste crackers haver,jumbo,3,
+340645,Biscuits,Dare,xx:dare,biscuits,dare,3,
+2335478,Spanisches natives Olivenöl extra,"Las Cuarenta, Matithor","xx:las-cuarenta,xx:matithor",spanisches natives olivenol extra,"las cuarenta, matithor",3,
+36562,Sparkling Mineral Water,Private Selection,xx:private-selection,sparkling mineral water,private selection,3,
+3781496,Dop Terra di Bari “Castel del Monte”,Ecor,xx:ecor,dop terra di bari “castel del monte”,ecor,3,
+3978789,Ensalada completa césar pollo y queso,Florette,xx:florette,ensalada completa cesar pollo y queso,florette,3,
+775455,Almond Salted Caramel Bars,Honey Bar,honey-bar,almond salted caramel bars,honey bar,3,
+4524253,Beurre aux cristaux de sel de Guérande,La motte,xx:la-motte,beurre aux cristaux de sel de guerande,la motte,3,
+3623017,Missanga de chocolate drage,Oba,xx:oba,missanga de chocolate drage,oba,3,
+2096697,La Galette fine Chocolat,Trésors gourmands,xx:tresors-gourmands,la galette fine chocolat,tresors gourmands,3,
+197,VEGAN BRAIN + BODY BOOST,"Rum dunkel, Vegan Brain Food","xx:rum-dunkel,xx:vegan-brain-food",vegan brain + body boost,"rum dunkel, vegan brain food",2,vegan brain food
+393,Datu putti spicy adobo,Datu puti,datu-puti,datu putti spicy adobo,datu puti,2,datu puti
+445,Villa de Varda (Trie Grappa) Pinot Nero,Grappa,xx:grappa,villa de varda (trie grappa) pinot nero,grappa,2,grappa
+562,Hershey s milk nuggets,Hershey's,hershey-s,hershey s milk nuggets,hershey's,2,hershey's
+1233,Canola Harvest® Original Vegetable Oil Spread Tub,Canola Harvest,xx:canola-harvest,canola harvest® original vegetable oil spread tub,canola harvest,2,canola harvest
+1608,TeeGschwender Gut's Nächtle,TeeGschwendner,xx:teegschwendner,teegschwender gut's nachtle,teegschwendner,2,teegschwendner
+1889,Herbalife 24,Haerfbalife,xx:haerfbalife,herbalife 24,haerfbalife,2,haerfbalife
+2174,Roter Heringssalat 1 kg Schale,"Heringsalat, Salate im Kübel","xx:heringsalat,xx:salate-im-kubel",roter heringssalat 1 kg schale,"heringsalat, salate im kubel",2,heringsalat
+2221,"Kartoffelsalat mit Speck  5,00 kg  Eimer",Kartoffesalat,xx:kartoffesalat,"kartoffelsalat mit speck 5,00 kg eimer",kartoffesalat,2,kartoffesalat
+2269,Pringle,Pringles,xx:pringles,pringle,pringles,2,pringles
+4502,Brinkhoff‘s No1,Brinkhoff,brinkhoff,brinkhoff's no1,brinkhoff,2,brinkhoff
+5101,Bachelor's smash instant potato 176g,Batchelors,xx:batchelors,bachelor's smash instant potato 176g,batchelors,2,batchelors
+5663,Saint Hubert,Saint Hibert,saint-hibert,saint hubert,saint hibert,2,saint hibert
+6176,CHICKEN BNB BREAST THIN SLICED BOWL & BASKET,Bowl and basket,xx:bowl-and-basket,chicken bnb breast thin sliced bowl & basket,bowl and basket,2,bowl and basket
+6341,"Healthy Food Brands, A&W, Soda Bottles Gummy Candies With Real A&W Root Beer",Healthy Food Brands Llc,healthy-food-brands-llc,"healthy food brands, a&w, soda bottles gummy candies with real a&w root beer",healthy food brands llc,2,healthy food brands llc
+6903,"Guiltless Gourmet, Organic Unsweetened Coconut Water",Guiltless Gourmet Inc.,guiltless-gourmet-inc,"guiltless gourmet, organic unsweetened coconut water",guiltless gourmet inc.,2,guiltless gourmet inc.
+8653,Sshweppes pink,Schweppes,xx:schweppes,sshweppes pink,schweppes,2,schweppes
+8924,Kellogg extra,Kellogg's,xx:kellogg-s,kellogg extra,kellogg's,2,kellogg's
+9674,Honey stringer waffle,Honey Stinger,honey-stinger,honey stringer waffle,honey stinger,2,honey stinger
+10668,Kellogg’s. Smacks,Kellogg's,xx:kellogg-s,kellogg's. smacks,kellogg's,2,kellogg's
+11824,Betty Crocker Hershey,"Hershey's, General Mills","hershey-s,general-mills",betty crocker hershey,"hershey's, general mills",2,hershey's
+14692,My koki lidah buaya,may koki,xx:may-koki,my koki lidah buaya,may koki,2,may koki
+18017,Hershey,Hershey's,hershey-s,hershey,hershey's,2,hershey's
+18072,Kellogs exrta,Kellogg's,kellogg-s,kellogs exrta,kellogg's,2,kellogg's
+18329,Trader Joe’s Turkey Meatballs,Trader Joes,trader-joes,trader joe's turkey meatballs,trader joes,2,trader joes
+18458,Marks & Spencer Frozen Croissanrs,Marks And Spencer,xx:marks-and-spencer,marks & spencer frozen croissanrs,marks and spencer,2,marks and spencer
+18967,Mcvities  digestives,McVitie's,xx:mcvitie-s,mcvities digestives,mcvitie's,2,mcvitie's
+19534,Oscar Meyer fully cooked original bacon,Oscar Mayer,xx:oscar-mayer,oscar meyer fully cooked original bacon,oscar mayer,2,oscar mayer
+20740,Fresh Tomatillo,Fresh Tomatoes,fresh-tomatoes,fresh tomatillo,fresh tomatoes,2,fresh tomatoes
+21845,Arctic Gardens Spaghetti Vegetable Mix,Artic Gardens,artic-gardens,arctic gardens spaghetti vegetable mix,artic gardens,2,artic gardens
+22151,Harry’s céréales sans sucre ajouté,Harrys,xx:harrys,harry's cereales sans sucre ajoute,harrys,2,harrys
+22161,Cocacola,Coca-Cola,xx:coca-cola,cocacola,coca-cola,2,coca-cola
+22170,Fruitopia® Strawberry Passion Awareness 1.75 L,"Fruitopia,minute maid","xx:minute-maid,xx:fruitopia",fruitopia® strawberry passion awareness 1.75 l,"fruitopia,minute maid",2,fruitopia
+22398,Hallo Fresh Meal 12,Hello Fresh,xx:hello-fresh,hallo fresh meal 12,hello fresh,2,hello fresh
+24322,jelly bean boolzed,"jelly bean blozed, Jelly Belly","jelly-bean-blozed,jelly-belly",jelly bean boolzed,"jelly bean blozed, jelly belly",2,jelly bean blozed
+28193,Bulk powder bowl cake,Bulk powders,xx:bulk-powders,bulk powder bowl cake,bulk powders,2,bulk powders
+29286,Tofifee plus maskotka,Toffifee,toffifee,tofifee plus maskotka,toffifee,2,toffifee
+29335,Trader Joes French Green Beans,Trader Joe's,trader-joe-s,trader joes french green beans,trader joe's,2,trader joe's
+29658,Byte Bar Swaggy Sampler,Byte Bars,byte-bars,byte bar swaggy sampler,byte bars,2,byte bars
+29759,"Long Grove Confectionery Co, Rocky Road Fudge",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, rocky road fudge",long grove confectionery co.,2,long grove confectionery co.
+29772,"Long Grove Confectionery Co, Creamy White Pretzel Twists",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, creamy white pretzel twists",long grove confectionery co.,2,long grove confectionery co.
+29776,"Long Grove Confectionery Co, Pastel Mint Nonpareils",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, pastel mint nonpareils",long grove confectionery co.,2,long grove confectionery co.
+29778,"Long Grove Confectionery Co, Spring Nonpareils",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, spring nonpareils",long grove confectionery co.,2,long grove confectionery co.
+29782,"Long Grove Confection Co., Chicago Snack Mix, Cheese & Caramel Popcorn",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confection co., chicago snack mix, cheese & caramel popcorn",long grove confectionery co.,2,long grove confectionery co.
+29785,"Long Grove Confectionery Co, Congratulations Pop",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, congratulations pop",long grove confectionery co.,2,long grove confectionery co.
+29786,"Long Grove Confectionery Co, Pretzel Twists, Milk Chocolate",Long Grove Confectionery Co.,long-grove-confectionery-co,"long grove confectionery co, pretzel twists, milk chocolate",long grove confectionery co.,2,long grove confectionery co.
+30198,Nestea® Lemon Iced Tea,Nestea,xx:nestea,nestea® lemon iced tea,nestea,2,nestea
+30235,Sharon's Sorbet Passion Fruit,Sharon's Sorbet®,sharon-s-sorbet,sharon's sorbet passion fruit,sharon's sorbet®,2,sharon's sorbet®
+30360,"Phong Kee, Hot Roasted Peanuts",Phong Kee Roasted Peanut Co.,phong-kee-roasted-peanut-co,"phong kee, hot roasted peanuts",phong kee roasted peanut co.,2,phong kee roasted peanut co.
+30622,Mt olive simply pickles kosher dill sandwich stuffers,Mt. Olive,mt-olive,mt olive simply pickles kosher dill sandwich stuffers,mt. olive,2,mt. olive
+30625,Mt olive simply pickles hamburger dill chips,Mt. Olive,mt-olive,mt olive simply pickles hamburger dill chips,mt. olive,2,mt. olive
+30650,Mt olive simply pickles kosher baby dills,Mt. Olive,xx:mt-olive,mt olive simply pickles kosher baby dills,mt. olive,2,mt. olive
+30814,Members Mark The Better Muffin Bar,Members Ark,xx:members-ark,members mark the better muffin bar,members ark,2,members ark
+30963,Trader Joe’s vegan Italian style sausage-less sausage,Trader Joes,xx:trader-joes,trader joe's vegan italian style sausage-less sausage,trader joes,2,trader joes
+31808,FRUIT ADVENTURE tic tacs,tic tac,xx:tic-tac,fruit adventure tic tacs,tic tac,2,tic tac
+31891,Wintergreen TicTacs,TicTac,xx:tictac,wintergreen tictacs,tictac,2,tictac
+31989,Forrero Rocher,Ferrero Rocher,ferrero-rocher,forrero rocher,ferrero rocher,2,ferrero rocher
+32190,Fruit adventure tic tacs 200 mints,Tic Tac,tic-tac,fruit adventure tic tacs 200 mints,tic tac,2,tic tac
+32444,Havanna Club 3 Jahre,Havana Club,xx:havana-club,havanna club 3 jahre,havana club,2,havana club
+32474,jack link's pepproni,jack links,xx:jack-links,jack link's pepproni,jack links,2,jack links
+33025,Bulk powder,Bulk Powders,xx:bulk-powders,bulk powder,bulk powders,2,bulk powders
+33288,"Farmhouse Biscuits Ltd, Biscuit Selection, Butter",Farmhouse Biscuits Ltd.,farmhouse-biscuits-ltd,"farmhouse biscuits ltd, biscuit selection, butter",farmhouse biscuits ltd.,2,farmhouse biscuits ltd.
+33290,"Farmhouse Biscuits Ltd, Chocolate Chip Biscuits",Farmhouse Biscuits Ltd.,farmhouse-biscuits-ltd,"farmhouse biscuits ltd, chocolate chip biscuits",farmhouse biscuits ltd.,2,farmhouse biscuits ltd.
+33291,"Farmhouse Biscuits, Spiced Ginger Biscuits",Farmhouse Biscuits Ltd.,farmhouse-biscuits-ltd,"farmhouse biscuits, spiced ginger biscuits",farmhouse biscuits ltd.,2,farmhouse biscuits ltd.
+33292,"Farmhouse Biscuits, Winter Garden Rectangle (Cranberry Crunch Biscuits)",Farmhouse Biscuits Ltd.,farmhouse-biscuits-ltd,"farmhouse biscuits, winter garden rectangle (cranberry crunch biscuits)",farmhouse biscuits ltd.,2,farmhouse biscuits ltd.
+33400,"The Father's Table, New York Style Cheesecake",The Father's Table Llc,xx:the-father-s-table-llc,"the father's table, new york style cheesecake",the father's table llc,2,the father's table llc
+33405,"The Father's Table, Fluffy Vanilla Cake Roll, Mixed Berry",The Father's Table Llc,the-father-s-table-llc,"the father's table, fluffy vanilla cake roll, mixed berry",the father's table llc,2,the father's table llc
+33432,"The Father's Table, Cake Roll, Carrot Buttercream",The Father's Table Llc,the-father-s-table-llc,"the father's table, cake roll, carrot buttercream",the father's table llc,2,the father's table llc
+33641,"Mcsteven's, Panic Stricken Purple Party Punch",Mcsteven's Inc.,mcsteven-s-inc,"mcsteven's, panic stricken purple party punch",mcsteven's inc.,2,mcsteven's inc.
+33753,Sainsbury’s red wine vinegar,Sainsburys,xx:sainsbury-s,sainsbury's red wine vinegar,sainsburys,2,sainsburys
+34018,FD Jolly Ranchers,Jolly rancher,xx:jolly-rancher,fd jolly ranchers,jolly rancher,2,jolly rancher
+34048,Jolly Rancher Rropes,Jolly Ranchers,xx:jolly-ranchers,jolly rancher rropes,jolly ranchers,2,jolly ranchers
+34052,Freeze Dried Jolly Ranchers,Jolly Rancher,xx:jolly-rancher,freeze dried jolly ranchers,jolly rancher,2,jolly rancher
+34070,Jolly Rancher Hard Candy,Jolly Racher Hard Candy,xx:jolly-racher-hard-candy,jolly rancher hard candy,jolly racher hard candy,2,jolly racher hard candy
+34165,Jolly Rancher Gummy Sours,Jolly Ranchers,jolly-ranchers,jolly rancher gummy sours,jolly ranchers,2,jolly ranchers
+34208,Sainsburys Taste the Difference Cumberland Sausages,Sainsbury’s,xx:sainsbury-s,sainsburys taste the difference cumberland sausages,sainsbury's,2,sainsbury's
+34376,mini hold the cone trader joes,Trader Joe's,xx:trader-joe-s,mini hold the cone trader joes,trader joe's,2,trader joe's
+34409,Jack daniels tennessee honey pecans,Jack Daniel's,xx:jack-daniel-s,jack daniels tennessee honey pecans,jack daniel's,2,jack daniel's
+34560,"Maplehurst Bakeries, Mini Gold & Chocolate Party Platter Cupcakes",Maplehurst Bakeries  Llc,maplehurst-bakeries-llc,"maplehurst bakeries, mini gold & chocolate party platter cupcakes",maplehurst bakeries llc,2,maplehurst bakeries llc
+34611,"Baraboo Candy Company, Mini Cow Pie Candy, Original",Baraboo Candy Company  Llc,baraboo-candy-company-llc,"baraboo candy company, mini cow pie candy, original",baraboo candy company llc,2,baraboo candy company llc
+34978,"Dillons, Whole Wheat Sliders Mini Buns","The Kroger Co., Dillon","xx:dillon,xx:the-kroger-co","dillons, whole wheat sliders mini buns","the kroger co., dillon",2,dillon
+35267,simply truth organic poultry herb blend,Simple Truth Organic,simple-truth-organic,simply truth organic poultry herb blend,simple truth organic,2,simple truth organic
+35507,"Simple truth, dry roasted macadamia nuts","Simply,  Simply Truth","xx:simply,xx:simply-truth","simple truth, dry roasted macadamia nuts","simply, simply truth",2,simply truth
+37456,Private select toasted hazelnut decaf,Private Selection,private-selection,private select toasted hazelnut decaf,private selection,2,private selection
+38896,"The Kroger Co, Brownie, Colossal",The Kroger Co.,the-kroger-co,"the kroger co, brownie, colossal",the kroger co.,2,the kroger co.
+39172,Private Selection Pearl Couscous,Private Selections,xx:private-selections,private selection pearl couscous,private selections,2,private selections
+40784,simply truth organic whole milk,"Kroger,Simple Truth,The Kroger Co.","xx:kroger,xx:simple-truth,xx:the-kroger-co",simply truth organic whole milk,"kroger,simple truth,the kroger co.",2,simple truth
+41467,Apple Wild Twiat,Wild Twist,xx:wild-twist,apple wild twiat,wild twist,2,wild twist
+41582,Smidge & spoon garlic powder,Smidge and Spoon,smidge-and-spoon,smidge & spoon garlic powder,smidge and spoon,2,smidge and spoon
+41583,Smidge & spoon ground cinnamon,Smidge and Spoon,smidge-and-spoon,smidge & spoon ground cinnamon,smidge and spoon,2,smidge and spoon
+41584,Smidge & spoon parsley flakes,Smidge and Spoon,smidge-and-spoon,smidge & spoon parsley flakes,smidge and spoon,2,smidge and spoon
+42443,Deli Kitchn Chipotle CheddR Chicken Wrap,Deli Kitchen,xx:deli-kitchen,deli kitchn chipotle cheddr chicken wrap,deli kitchen,2,deli kitchen
+48165,"Roundy's, pretzel flats, hot buffalo",Roundys,roundys,"roundy's, pretzel flats, hot buffalo",roundys,2,roundys
+48526,Roundys provolone cheese slice,Roundy's,xx:roundy-s,roundys provolone cheese slice,roundy's,2,roundy's
+49306,Jbasket dried buckwheat soba noodles,J-basket,xx:j-basket,jbasket dried buckwheat soba noodles,j-basket,2,j-basket
+50679,"Dryden & Palmer, Rock Candy Sugar Stick",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick",dryden & palmer inc,2,dryden & palmer inc
+50680,"Dryden & Palmer, Rock Candy Sugar Stick, Blue Raspberry",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick, blue raspberry",dryden & palmer inc,2,dryden & palmer inc
+50681,"Dryden & Palmer, Rock Candy Sugar Stick, Cherry",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick, cherry",dryden & palmer inc,2,dryden & palmer inc
+50683,"Dryden & Palmer, Rock Candy Sugar Stick, Grape",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick, grape",dryden & palmer inc,2,dryden & palmer inc
+50684,"Dryden & Palmer, Rock Candy Sugar Stick, Cotton Candy",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick, cotton candy",dryden & palmer inc,2,dryden & palmer inc
+50685,"Dryden & Palmer, Rock Candy Sugar Stick, Watermelon",Dryden & Palmer Inc,dryden-palmer-inc,"dryden & palmer, rock candy sugar stick, watermelon",dryden & palmer inc,2,dryden & palmer inc
+50722,Johnsonville sweet & smokey,Johnsonvillle,johnsonvillle,johnsonville sweet & smokey,johnsonvillle,2,johnsonvillle
+50957,Tabasco®,"Mc. Ilhenny Co.,Tabasco","xx:mc-ilhenny-co,xx:tabasco",tabasco®,"mc. ilhenny co.,tabasco",2,tabasco
+50958,Tabasco® brand pepper sauce,"McIlhenny Company, Tabasco","xx:mcilhenny-company,xx:tabasco",tabasco® brand pepper sauce,"mcilhenny company, tabasco",2,tabasco
+50960,Tabasco® brand pepper sauce,"McIhenny Company, Tabasco","xx:mcihenny-company,xx:tabasco",tabasco® brand pepper sauce,"mcihenny company, tabasco",2,tabasco
+50961,Tabasco® brand pepper sauce,Tabasco,tabasco,tabasco® brand pepper sauce,tabasco,2,tabasco
+50983,Tabasco® brand chipotle pepper sauce,Tabasco,tabasco,tabasco® brand chipotle pepper sauce,tabasco,2,tabasco
+50984,Tabasco® brand green pepper sauce,Tabasco,tabasco,tabasco® brand green pepper sauce,tabasco,2,tabasco
+50999,Tabasco® brand dry red flavoring (non - standardized product),Tabasco,tabasco,tabasco® brand dry red flavoring (non - standardized product),tabasco,2,tabasco
+51001,Tabasco® brand pepper paste,Tabasco,tabasco,tabasco® brand pepper paste,tabasco,2,tabasco
+51006,Tabasco® brand habanero pepper sauce,Tabasco,tabasco,tabasco® brand habanero pepper sauce,tabasco,2,tabasco
+51011,Tabasco® brand sweet and spicy pepper sauce,"Tabasco,  Mcilhenny Company","tabasco,mcilhenny-company",tabasco® brand sweet and spicy pepper sauce,"tabasco, mcilhenny company",2,tabasco
+51013,Tabasco® brand garlic pepper sauce,Tabasco,xx:tabasco,tabasco® brand garlic pepper sauce,tabasco,2,tabasco
+51026,Tabasco® brand spicy salt,Tabasco,xx:tabasco,tabasco® brand spicy salt,tabasco,2,tabasco
+51100,Tabasco® Original,Tabasco,xx:tabasco,tabasco® original,tabasco,2,tabasco
+54600,Brachs black jelly bird eggs,Brach's,brach-s,brachs black jelly bird eggs,brach's,2,brach's
+54656,Brachs sugar free lemon drops candy,"Brach's,  Ferrara Candy Company","brach-s,ferrara-candy-company",brachs sugar free lemon drops candy,"brach's, ferrara candy company",2,brach's
+54680,Halloween candy brachs candy cornbag,Brach's,brach-s,halloween candy brachs candy cornbag,brach's,2,brach's
+55065,"caja 51Q, unidad 1Q",caja 10Q unidad 1Q,caja-10q-unidad-1q,"caja 51q, unidad 1q",caja 10q unidad 1q,2,caja 10q unidad 1q
+56296,Kacang Dua Kelinci,Dua Kelincii,dua-kelincii,kacang dua kelinci,dua kelincii,2,dua kelincii
+57801,Mango Citrus Soda,Mango Citrus Sol,mango-citrus-sol,mango citrus soda,mango citrus sol,2,mango citrus sol
+58381,Mountain Dew: Baja Punch (20oz),Mountain Dew,mountain-dew,mountain dew: baja punch (20oz),mountain dew,2,mountain dew
+58547,Mtn Dew: Blackberry Citrus - (20 oz),"Pepsi co, Mtn Dew","xx:mtn-dew,xx:pepsi-co",mtn dew: blackberry citrus - (20 oz),"pepsi co, mtn dew",2,mtn dew
+58578,2024 Mystery Flavor Mountain Dew: VOODEW - (20 OZ),Mountain Dew,xx:mountain-dew,2024 mystery flavor mountain dew: voodew - (20 oz),mountain dew,2,mountain dew
+59110,Member’s Mark Purified Water,Members Mark,members-mark,member's mark purified water,members mark,2,members mark
+59129,Honey Gram Crackers Great Balue,Great Value,great-value,honey gram crackers great balue,great value,2,great value
+59386,Sainsbury real mayo,Sainsbury's,xx:sainsbury-s,sainsbury real mayo,sainsbury's,2,sainsbury's
+59854,Organic Just Tomato Bits,"Just Tomatoes, Etc!","just-tomatoes,etc",organic just tomato bits,"just tomatoes, etc!",2,just tomatoes
+60057,"Wholesome!, organic frosting, wild white strawberry","Wholesome,  Wholesome Sweeteners  Inc.","wholesome,wholesome-sweeteners-inc","wholesome!, organic frosting, wild white strawberry","wholesome, wholesome sweeteners inc.",2,wholesome
+60070,Wholesome! Organic Coconut Palm Syrup,Wholesome,xx:wholesome,wholesome! organic coconut palm syrup,wholesome,2,wholesome
+60111,snowflakes by Sainsbury's,sainsburys,xx:sainsbury-s,snowflakes by sainsbury's,sainsburys,2,sainsburys
+60816,Bautzener Senf,Bautzner,xx:bautzner,bautzener senf,bautzner,2,bautzner
+60859,"Specialty Bakers, Red Velvet Dessert Shells",Specialty Bakers  Llc,specialty-bakers-llc,"specialty bakers, red velvet dessert shells",specialty bakers llc,2,specialty bakers llc
+61576,Otis spunkmye,Otis Spunkmeyer,xx:otis-spunkmeyer,otis spunkmye,otis spunkmeyer,2,otis spunkmeyer
+61887,Beef burrito mexican by sainsbury s,Sainsbury's,xx:sainsbury-s,beef burrito mexican by sainsbury s,sainsbury's,2,sainsbury's
+62241,marta white honey cornbread & muffin mix,Martha White,martha-white,marta white honey cornbread & muffin mix,martha white,2,martha white
+62592,Sweet Baby Ray’s Jerk Sauce,Sweet Baby Rays,xx:sweet-baby-rays,sweet baby ray's jerk sauce,sweet baby rays,2,sweet baby rays
+62990,Annies hmgrwn org bkd snck crackers chdr squares,Annie's,annie-s,annies hmgrwn org bkd snck crackers chdr squares,annie's,2,annie's
+63107,Annies chwy gran bars oatmeal raisin,Annie's,annie-s,annies chwy gran bars oatmeal raisin,annie's,2,annie's
+63113,Annies sunny citrus organic fruit snacks,Annie's,annie-s,annies sunny citrus organic fruit snacks,annie's,2,annie's
+63140,Annies organic berry patch bunny fruit snacks,Annie's,annie-s,annies organic berry patch bunny fruit snacks,annie's,2,annie's
+63161,Annies peanut butter cookie dough protein bars gluten free,Annie's,xx:annie-s,annies peanut butter cookie dough protein bars gluten free,annie's,2,annie's

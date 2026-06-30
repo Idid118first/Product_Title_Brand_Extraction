@@ -1,2 +1,9 @@
 en.openfoodfacts.org.products.csv
+.cursor/
+skills.md
+__pycache__/
+.env
+requirements.txt
+API_Test.py
+llm_benchmark_run.log
 .idea/
