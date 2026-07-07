@@ -3,10 +3,10 @@
     "name": "KnownListExtractor",
     "rows": 892,
     "brands_returned": 636,
-    "accuracy_overall": 0.9607623318385651,
+    "accuracy_overall": 0.9809417040358744,
     "accuracy_by_segment": {
       "1": 0.9936974789915967,
-      "2": 0.8533333333333334,
+      "2": 0.9733333333333334,
       "3": 0.9624060150375939
     },
     "segment_counts": {
@@ -14,8 +14,8 @@
       "3": 266,
       "2": 150
     },
-    "precision": 0.9449685534591195,
-    "recall": 0.9600638977635783,
+    "precision": 0.9732704402515723,
+    "recall": 0.9888178913738019,
     "abstention_rate": 0.9624060150375939,
     "prompt_tokens": null,
     "completion_tokens": null,
@@ -30,29 +30,57 @@
   "llm": {
     "name": "LLMExtractor",
     "rows": 892,
-    "brands_returned": 614,
-    "accuracy_overall": 0.889,
+    "brands_returned": 522,
+    "accuracy_overall": 0.7757847533632287,
     "accuracy_by_segment": {
-      "1": 0.943,
-      "2": 0.647,
-      "3": 0.929
+      "1": 0.7394957983193278,
+      "2": 0.6466666666666666,
+      "3": 0.9135338345864662
     },
     "segment_counts": {
       "1": 476,
-      "2": 150,
-      "3": 266
+      "3": 266,
+      "2": 150
     },
-    "precision": 0.889,
-    "recall": 0.872,
-    "abstention_rate": 0.929,
-    "prompt_tokens": 3298306,
-    "completion_tokens": 1968,
-    "total_tokens": 3300274,
+    "precision": 0.8601532567049809,
+    "recall": 0.7172523961661342,
+    "abstention_rate": 0.9135338345864662,
+    "prompt_tokens": 411800,
+    "completion_tokens": 1774,
+    "total_tokens": 413574,
     "api_requests": 892,
-    "cost_usd": 0.4959,
-    "tokens_per_1k_titles": 3699859,
-    "cost_per_1k_titles_usd": 0.556,
+    "cost_usd": 0.0628344,
+    "tokens_per_1k_titles": 463647.98206278025,
+    "cost_per_1k_titles_usd": 0.07044215246636771,
     "model": "gpt-4o-mini",
     "notes": ""
+  },
+  "hybrid": {
+    "name": "HybridExtractor",
+    "rows": 892,
+    "brands_returned": 652,
+    "accuracy_overall": 0.9529147982062781,
+    "accuracy_by_segment": {
+      "1": 0.9978991596638656,
+      "2": 0.9133333333333333,
+      "3": 0.8947368421052632
+    },
+    "segment_counts": {
+      "1": 476,
+      "3": 266,
+      "2": 150
+    },
+    "precision": 0.9386503067484663,
+    "recall": 0.9776357827476039,
+    "abstention_rate": 0.8947368421052632,
+    "prompt_tokens": 1008926,
+    "completion_tokens": 387,
+    "total_tokens": 1009313,
+    "api_requests": 283,
+    "cost_usd": 0.1515711,
+    "tokens_per_1k_titles": 1131516.8161434978,
+    "cost_per_1k_titles_usd": 0.16992275784753363,
+    "model": "gpt-4o-mini",
+    "notes": "LLM fallback calls: 283/892."
   }
 }
