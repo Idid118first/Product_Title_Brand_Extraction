@@ -4,6 +4,12 @@ skills.md
 __pycache__/
 .env
 requirements.txt
-API_Test.py
+tests/API_Test.py
+.pytest_cache/
+.coverage
+htmlcov/
 llm_benchmark_run.log
 .idea/
+hybrid_extractor_run.log
+known_list_extractor_run.log
+llm_extractor_run.log

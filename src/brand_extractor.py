@@ -14,9 +14,10 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
+from pydantic import BaseModel, ConfigDict, Field, ValidationInfo, field_validator, model_validator
 from rapidfuzz import fuzz
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIGS_DIR = PROJECT_ROOT / "configs"
 # Fuzzy wins within this many points above the minimum threshold are treated as low-confidence.
 FUZZY_LOW_CONFIDENCE_MARGIN = 5.0
@@ -82,6 +83,94 @@ def resolve_config_path(path: str | Path) -> Path:
     if from_root.exists():
         return from_root
     return candidate
+
+
+# Default CSV columns searched for brands when no explicit brand_column is given.
+BRAND_COLUMN_CANDIDATES = ("brands", "gold_brand", "brands_norm")
+
+
+def _require_brand_column(config_path: Path, brand_column: str | None) -> None:
+    """Validate that a CSV config has a usable brand column.
+
+    Only enforced for existing CSV files: missing files are left to raise `FileNotFoundError`
+    downstream, and text brand lists have no columns to check. Raises `ValueError` (surfaced as a
+    pydantic validation error) when the required brand column is absent.
+    """
+    path = resolve_config_path(config_path)
+    if not path.is_file() or path.suffix.lower() != ".csv":
+        return
+    with path.open(encoding="utf-8", newline="") as f:
+        fieldnames = csv.DictReader(f).fieldnames or []
+    if brand_column is not None:
+        if brand_column not in fieldnames:
+            raise ValueError(f"CSV missing brand column {brand_column!r}; found {fieldnames}")
+    elif not any(col in fieldnames for col in BRAND_COLUMN_CANDIDATES):
+        raise ValueError(
+            f"CSV must contain one of {BRAND_COLUMN_CANDIDATES} (or pass brand_column); "
+            f"found {fieldnames}"
+        )
+
+
+class KnownListConfig(BaseModel):
+    """Validated arguments for KnownListExtractor (also enforces a brand column on CSV configs)."""
+
+    model_config = ConfigDict(protected_namespaces=())
+
+    config_path: Path
+    brand_column: str | None = None
+    rejection_list_paths: list[Path] | None = None
+
+    @model_validator(mode="after")
+    def _check_brand_column(self) -> "KnownListConfig":
+        _require_brand_column(self.config_path, self.brand_column)
+        return self
+
+
+class LLMConfig(BaseModel):
+    """Validated arguments for LLMExtractor."""
+
+    model_config = ConfigDict(protected_namespaces=())
+
+    config_path: Path
+    api_key: str | None = None
+    model: str = "gpt-4o-mini"
+    brand_list_limit: int = Field(default=1000, ge=0)
+    brand_column: str | None = None
+    domain: str = "food"
+    include_brand_list_in_prompt: bool = False
+
+    @field_validator("model", "domain")
+    @classmethod
+    def _reject_blank(cls, value: str, info: ValidationInfo) -> str:
+        if not value.strip():
+            raise ValueError(f"{info.field_name} must not be empty")
+        return value
+
+
+class HybridConfig(BaseModel):
+    """Validated arguments for HybridExtractor (also enforces a brand column on CSV configs)."""
+
+    model_config = ConfigDict(protected_namespaces=())
+
+    config_path: Path
+    api_key: str | None = None
+    model: str = "gpt-4o-mini"
+    brand_list_limit: int = Field(default=1000, ge=0)
+    brand_column: str | None = None
+    rejection_list_paths: list[Path] | None = None
+    domain: str = "food"
+
+    @field_validator("model", "domain")
+    @classmethod
+    def _reject_blank(cls, value: str, info: ValidationInfo) -> str:
+        if not value.strip():
+            raise ValueError(f"{info.field_name} must not be empty")
+        return value
+
+    @model_validator(mode="after")
+    def _check_brand_column(self) -> "HybridConfig":
+        _require_brand_column(self.config_path, self.brand_column)
+        return self
 
 
 class BrandExtractor(ABC):
@@ -244,13 +333,18 @@ class KnownListExtractor(BrandExtractor):
         brand_column: str | None = None,
         rejection_list_paths: Sequence[str | Path] | None = None,
     ) -> None:
+        cfg = KnownListConfig(
+            config_path=config_path,
+            brand_column=brand_column,
+            rejection_list_paths=rejection_list_paths,
+        )
         self.config_path: Path | None = None
         self.brands: frozenset[str] | None = None
         self._display_by_normalized: dict[str, str] = {}
         self._rejection_phrases, self._rejection_tokens = self._build_rejection_sets(
-            rejection_list_paths
+            cfg.rejection_list_paths
         )
-        self.create_brand_list(config_path, brand_column)
+        self.create_brand_list(cfg.config_path, cfg.brand_column)
 
     def create_brand_list(
         self, brands: str | Path, brand_column: str | None = None
@@ -279,13 +373,12 @@ class KnownListExtractor(BrandExtractor):
                         )
                     column = brand_column
                 else:
-                    candidate_columns = ("brands", "gold_brand", "brands_norm")
                     column = next(
-                        (col for col in candidate_columns if col in reader.fieldnames), None
+                        (col for col in BRAND_COLUMN_CANDIDATES if col in reader.fieldnames), None
                     )
                     if column is None:
                         raise ValueError(
-                            f"CSV must contain one of {candidate_columns} (or pass brand_column); "
+                            f"CSV must contain one of {BRAND_COLUMN_CANDIDATES} (or pass brand_column); "
                             f"found {reader.fieldnames}"
                         )
                 for row in reader:
@@ -462,16 +555,27 @@ class LLMExtractor(BrandExtractor):
         brand_list_limit: int = 1000,
         brand_column: str | None = None,
         domain: str = "food",
+        include_brand_list_in_prompt: bool = False,
     ) -> None:
+        cfg = LLMConfig(
+            config_path=config_path,
+            api_key=api_key,
+            model=model,
+            brand_list_limit=brand_list_limit,
+            brand_column=brand_column,
+            domain=domain,
+            include_brand_list_in_prompt=include_brand_list_in_prompt,
+        )
         load_dotenv()
-        key = (api_key or os.getenv("OPENAI_API_KEY") or "").strip()
+        key = (cfg.api_key or os.getenv("OPENAI_API_KEY") or "").strip()
         if not key:
             raise ValueError("OPENAI_API_KEY not set")
         if not key.isascii():
             raise ValueError("OPENAI_API_KEY contains non-ASCII characters — re-copy from OpenAI")
         self.client = OpenAI(api_key=key)
-        self.model = model
-        self.domain = domain
+        self.model = cfg.model
+        self.domain = cfg.domain
+        self._include_brand_list = cfg.include_brand_list_in_prompt
         self.config_path: Path | None = None
         self._brand_list_text = ""
         self.usage = {
@@ -480,7 +584,7 @@ class LLMExtractor(BrandExtractor):
             "total_tokens": 0,
             "requests": 0,
         }
-        self._load_brand_list(config_path, brand_list_limit, brand_column)
+        self._load_brand_list(cfg.config_path, cfg.brand_list_limit, cfg.brand_column)
 
     def estimated_cost_usd(self) -> float:
         """Estimated API spend from accumulated usage (standard gpt-4o-mini rates)."""
@@ -510,7 +614,7 @@ class LLMExtractor(BrandExtractor):
 
     def _build_prompt(self, product_name: str, fallback_context: str | None = None) -> str:
         lines = [
-            f"Your task is to extract the brand from the following product title: {product_name}.",
+            f"Your task is to extract the brand from the following {self.domain} product title: {product_name}.",
             "There are a few guidelines to follow:",
             "- Be careful with generic words, items, products, or ingredients present in the title. "
             "Do not assume a common word is a brand just because a similar brand name exists "
@@ -519,31 +623,38 @@ class LLMExtractor(BrandExtractor):
             "you can try a misspelling of a potential brand name. For shorter brand names, be "
             "stricter about how much misspelling is acceptable; for longer brand names, be less "
             "strict as there is more room for error.",
-            f"- Consult this brand list for possible brand names: {self._brand_list_text}. "
-            f"This is a sample list of known brand names from the {self.domain} dataset.",
-            "- Brand names in the list are normalized: special characters stripped, lowercased, "
-            "and simplified. If a title variant looks slightly different for those reasons, it "
-            "may still be the same brand.",
-            "- Not every product title contains a brand. If you do not see a brand name or "
-            "something close to it in the title, do not invent one; reply with only none.",
-            "- Reply with only the brand name, or none if no brand is present in the title.",
-            "- When comparing or extracting, normalize the title the same way: lowercase, strip "
-            "special characters (smart apostrophes, accent marks, HTML entities like &amp;, extra "
-            "whitespace, commas attached to words like Co.,), but keep meaningful brand "
-            "punctuation such as ampersands and hyphens (M&M, Coca-Cola, Johnson & Johnson, Harley-Davidson).",
-            "- Return the brand name in the same format as it appears in the brand list.",
-            "",
-            "If multiple brands could apply, use these tie-breakers:",
-            "- Earliest position wins: prefer the brand that starts leftmost in the title.",
-            "- Longer brand wins ties at the same position (e.g. tesco finest over tesco).",
-            "- Grounded over ungrounded at the same position: every word of the brand must appear "
-            "in the title (e.g. prefer giant eagle over giant eagle inc. when inc is missing).",
-            "- Prefer an exact match over a fuzzy near-match.",
-            "",
-            "Position means:",
-            "- Exact or fuzzy consecutive match: where the brand word sequence starts in the title.",
-            "- Split-token match: the earliest title word that belongs to that brand.",
         ]
+        if self._include_brand_list:
+            lines.append(
+                f"- Consult this brand list for possible brand names: {self._brand_list_text}. "
+                f"This is a sample list of known brand names from the {self.domain} dataset."
+            )
+        lines.extend(
+            [
+                "- Brand names in the list are normalized: special characters stripped, lowercased, "
+                "and simplified. If a title variant looks slightly different for those reasons, it "
+                "may still be the same brand.",
+                "- Not every product title contains a brand. If you do not see a brand name or "
+                "something close to it in the title, do not invent one; reply with only none.",
+                "- Reply with only the brand name, or none if no brand is present in the title.",
+                "- When comparing or extracting, normalize the title the same way: lowercase, strip "
+                "special characters (smart apostrophes, accent marks, HTML entities like &amp;, extra "
+                "whitespace, commas attached to words like Co.,), but keep meaningful brand "
+                "punctuation such as ampersands and hyphens (M&M, Coca-Cola).",
+                "- Return the brand name in the same format as it appears in the brand list.",
+                "",
+                "If multiple brands could apply, use these tie-breakers:",
+                "- Earliest position wins: prefer the brand that starts leftmost in the title.",
+                "- Longer brand wins ties at the same position (e.g. tesco finest over tesco).",
+                "- Grounded over ungrounded at the same position: every word of the brand must appear "
+                "in the title (e.g. prefer giant eagle over giant eagle inc. when inc is missing).",
+                "- Prefer an exact match over a fuzzy near-match.",
+                "",
+                "Position means:",
+                "- Exact or fuzzy consecutive match: where the brand word sequence starts in the title.",
+                "- Split-token match: the earliest title word that belongs to that brand.",
+            ]
+        )
         if fallback_context:
             lines.extend(
                 [
@@ -595,19 +706,29 @@ class HybridExtractor(BrandExtractor):
         rejection_list_paths: Sequence[str | Path] | None = None,
         domain: str = "food",
     ) -> None:
-        self.config_path = resolve_config_path(config_path)
-        self.known_list = KnownListExtractor(
-            config_path=self.config_path,
-            brand_column=brand_column,
-            rejection_list_paths=rejection_list_paths,
-        )
-        self.llm = LLMExtractor(
+        cfg = HybridConfig(
+            config_path=config_path,
             api_key=api_key,
-            config_path=self.config_path,
             model=model,
             brand_list_limit=brand_list_limit,
             brand_column=brand_column,
+            rejection_list_paths=rejection_list_paths,
             domain=domain,
+        )
+        self.config_path = resolve_config_path(cfg.config_path)
+        self.known_list = KnownListExtractor(
+            config_path=self.config_path,
+            brand_column=cfg.brand_column,
+            rejection_list_paths=cfg.rejection_list_paths,
+        )
+        self.llm = LLMExtractor(
+            api_key=cfg.api_key,
+            config_path=self.config_path,
+            model=cfg.model,
+            brand_list_limit=cfg.brand_list_limit,
+            brand_column=cfg.brand_column,
+            domain=cfg.domain,
+            include_brand_list_in_prompt=True,
         )
 
     @staticmethod

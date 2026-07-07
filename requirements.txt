@@ -2,3 +2,6 @@ pandas
 rapidfuzz
 openai
 python-dotenv
+pydantic
+pytest
+pytest-cov
